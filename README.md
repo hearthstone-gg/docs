@@ -18,7 +18,7 @@
 -add api routes
 
 #app
--global message system
--make requests to api from log events
+-make requests to api from app:log events
 
-#cron handle events
+#cron
+-handle events
