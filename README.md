@@ -10,15 +10,24 @@
 -expose redirect urls
 
 #desktop
--show user in top
--logout
+-hide iframe on logout
+-unlink redirect
 
 #api
 -add models
 -add api routes
 
 #app
+-ui
+	-login
+	-matchmaking
+	-profile/settings
+	-nav
+		-show user in top
+	-in match
 -make requests to api from app: events
 
 #cron
--handle events
+-matchmaking
+-match steps resolving
+-fire at socket
