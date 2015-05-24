@@ -10,15 +10,15 @@
 -expose redirect urls
 
 #desktop
--global message system
--pass log events to app
+-show user in top
+-logout
 
 #api
 -add models
 -add api routes
 
 #app
--make requests to api from app:log events
+-make requests to api from app: events
 
 #cron
 -handle events
